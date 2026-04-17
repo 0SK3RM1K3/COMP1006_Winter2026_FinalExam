@@ -4,7 +4,7 @@ require "includes/auth.php";
 
 require "includes/connect.php";
 
-require "includes/header_admin.php";
+require "includes/adminHeader.php";
 
 $errors = [];
 

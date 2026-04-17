@@ -1,7 +1,7 @@
 <?php
 require "includes/auth.php";
 require "includes/connect.php";
-require "includes/header.php";
+require "includes/adminHeader.php";
 
 $sql = "SELECT * FROM photos ORDER BY created_at DESC";
 $stmt = $pdo->prepare($sql);
